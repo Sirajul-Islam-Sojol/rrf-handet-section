@@ -1,0 +1,118 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #565656;
+    font-size: 17px;
+}
+a:hover { text-decoration: none }
+.blog-box-bg-1{background-image: url(../img/blog-box-1.JPG);}
+.blog-box-bg-2{background-image: url(../img/blog-box-2.JPG);}
+.blog-box-bg-3{background-image: url(../img/blog-box-3.JPG);}
+
+.section-padding{
+    padding: 80px 0;
+}
+.section-title h2 {
+    font-size: 32px;
+    padding-top: 80px;
+}
+
+.section-title {
+    color: #565656;
+    font-size: 17px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 32px;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 15px;
+}
+section.section-padding {
+    padding-top:100px;
+}
+
+.blog-box-bg {
+    background-color: #ddd;
+    background-position: center center;
+    background-size: cover;
+    border: 1px solid #fdaf67;
+    height: 200px;
+}
+.blog-box-bg {
+    border-bottom: 0 solid;
+}
+.blog-box-content {
+    border: 1px solid #f4f4f4;
+    padding: 20px;
+}
+.blog-meta i.fa {
+}
+.blog-meta i.fa {
+    color: #fdaf57;
+}
+body {
+    
+}
+.blog-meta {
+    font-size: 14px;
+}
+.blog-meta span{
+    padding-left: 10px;
+}
+.blog-box-content {
+    color: #222;
+}
+blog-readmore-btn {
+    background: #fdaf67 none repeat scroll 0 0;
+}
+.blog-readmore-btn {
+    background-color: #fdaf67;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 10px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.blog-readmore-btn:hover {
+    background-color: #333;
+    color: gray;
+}
+.single-blog-box:hover {
+}
+.single-blog-box:hover .blog-box-content {
+    border: 1px solid #fadf67;
+}
+.blog-box-content {
+    transition: all 0.3s ease 0s;
+}
