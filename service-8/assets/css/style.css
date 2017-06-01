@@ -1,0 +1,94 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    color:#333;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #9c9c9c;
+}
+a:hover { text-decoration: none }
+
+.gray-bg{
+    background-color: #fafafa;
+}
+.section-padding{
+    padding: 80px 0;
+}
+.section-padding h2{
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 50px;  
+}
+.servie-bg-1{background-image: url(../img/service-bg-1.JPG);}
+.servie-bg-2{background-image: url(../img/service-bg-2.jpg);}
+.servie-bg-3{background-image: url(../img/service-bg-3.jpg);}
+.servie-bg-4{background-image: url(../img/service-bg-4.jpg);}
+.single-service-item{
+    background-color: #fff;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+.single-service-item:hover{
+    box-shadow: 0 7px 10px #39ca74;
+}
+.service-bg {
+    height: 160px;
+    background-color: #ddd;
+    background-position: center;
+    background-size: cover;
+}
+.servie-bg-1{}
+.service-content{
+    padding: 20px;
+}
+.service-content h3{
+    font-size: 20px;
+
+
+  color:#333;}
+  .service-content p{
+    line-height: 30px;
+    font-size: 16px;
+  }
+.servicef-more-btn{
+   display: inline-block;
+   color: #39ca74;
+   padding: 10px 0px;
+   border-radius: 50px;
+   margin-top: 5px;
+   font-weight: 700;
+   -webkit-transition: .3s;
+   transition: .3s;
+}
+.servicef-more-btn i.fa{
+    padding-left: 10px;
+}
+.servicef-more-btn:hover{
+    background: #39ca74;
+    color: #fff;
+    padding: 10px 20px;
+}
