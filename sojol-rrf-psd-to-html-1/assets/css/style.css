@@ -1,0 +1,97 @@
+/* *********** Base CSS************* */
+
+@import url('https://fonts.googleapis.com/css?family=Khula:300,400,600,700,800');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 400;
+    color: #373737;
+}
+body {
+    font-family: 'Khula', sans-serif;
+    font-size: 15px;
+}
+a:hover { text-decoration: none }
+/* ****************************************
+            HEADER-AREA-CSS-START
+***************************************** */
+.header-area{
+    padding: 20px 0;
+}
+.mainmenu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.mainmenu ul li{
+    position: relative;
+    display: inline-block;
+}
+.mainmenu li a{
+    display: block;
+    color: #888;
+    padding: 12px 15px;
+}
+
+.boxed-btn, input[type="submit"], button[type="submit"] {
+  display: inline-block;
+  background: #ef476f;
+  color: #fff;
+  font-size: 14px;
+  padding: 13px 25px;
+  border-radius: 2px;
+    border: none;
+}
+/* ****************************************
+            HEADER-AREA-CSS-END
+***************************************** */
+/* ****************************************
+            HERO-AREA-CSS-START
+***************************************** */
+.hero-area{
+    font-weight: 300;
+    padding: 150px 0;
+    border-bottom: 1px solid #f7f7f7;
+}
+.hero-area h1{
+    font-size: 40px;
+    max-width: 440px;
+    margin-bottom: 20px;
+    padding-top: 25px;
+}
+input[type="text"], input[type="url"], input[type="password"], input[type="tel"], textarea {
+    border: 1px solid #f0f0f0;
+    padding: 10px 15px;
+}
+input[type="submit"], button[type="submit"] {
+  padding: 11px 25px;
+  font-weight: 400;
+}
+.website-checker-form{
+    margin-top: 30px;
+}
+
+/* ****************************************
+            HERO-AREA-CSS-END
+***************************************** */
