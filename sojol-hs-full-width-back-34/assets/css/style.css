@@ -1,0 +1,88 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,400i,500,700');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+a:hover { text-decoration: none }
+.single-slides-item{
+    background-image: url(../img/bg.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    position: relative;
+}
+.slide-text-area{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.slide-text{
+
+    background-color: #2185c5;
+    color: #fff;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-right: 150px;
+    line-height: 1.8;
+    font-size: 20px;
+    padding-left: 5px;
+}
+.boxed-btn {
+    background: #333 none repeat scroll 0 0;
+    border-radius: 3px;
+    color: #fff;
+    display: inline-block;
+    margin-top: 35px;
+    padding: 16px 30px;
+    text-transform: uppercase;
+ } 
+.slide-text::before {
+    background: #2185c5 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: -997%;
+    position: absolute;
+    top: 0;
+    width: 1000%;
+}
+.slide-text::after {
+    background: #2185c5 none repeat scroll 0 0;
+    content: "";
+    height: 40px;
+    position: absolute;
+    right: -5px;
+    top: 90px;
+    transform: rotate(45deg);
+    width: 40px;
+}
+
+
