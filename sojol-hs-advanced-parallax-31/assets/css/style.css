@@ -1,0 +1,129 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700,700i');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+    line-height: 1.8;
+    max-height: 100%;
+    font-weight: 400;
+}
+a{
+    text-decoration: none;
+}
+a:hover { text-decoration: none }
+
+html,body, .full-height{
+    height: 100%;
+}
+.section-bg-1{background-image: url(../img/bg-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.section-bg-2{background-image: url(../img/bg-2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.section-table{
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.section-tablecell{
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+}
+.section-padding{
+    80px 0;
+}
+.section-padding.full-height{
+    padding: 0;
+}
+.overlay {
+  position: relative;
+  z-index: 1;
+  background-attachment: fixed;
+}
+.overlay:after {
+  width: 100%;
+  height: 100%;
+  background: #333;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  opacity: .5;
+}
+.single-service-item {
+  position: relative;
+  color: #fff;
+  z-index: 2;
+  padding: 30px;
+    text-align: center;
+}
+.single-service-item:after {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: "";
+  background: #333;
+  opacity: .5;
+  z-index: -1;
+}
+.single-service-item h2 {
+  font-size: 25px;
+}
+.service-icon{
+    font-size: 100px;
+    line-height: 120px;
+}
+.video-play-box{
+    text-align: center;
+    color: #fff;
+}
+.video-btn {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 50%;
+    color: #333;
+    display: inline-block;
+    font-size: 20px;
+    height: 100px;
+    line-height: 100px;
+    margin-top: 20px;
+    width: 100px;
+}
+.service-learn-more-btn {
+    display: inline-block;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 30px;
+}
