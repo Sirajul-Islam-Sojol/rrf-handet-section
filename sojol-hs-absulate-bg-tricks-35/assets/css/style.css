@@ -1,0 +1,123 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+a:hover { text-decoration: none }
+
+.section-absulate-bg {background-image: url(../img/bg-3.JPG);}
+.absulate-bg-2 {background-image: url(../img/bg-2.JPG);}
+.section-padding{
+    background-color: #222931;
+    font-size: 13px;
+    line-height: 1.7;
+    color: #B8B6B2;
+    position: relative;
+    padding: 80px 0;
+    z-index: 1;
+}
+.boxed-content{
+    position: relative;
+    padding-left: 40px;
+    padding-right: 80px;
+    
+}
+.boxed-content h3{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.boxed-content::before {
+    background: #fff none repeat scroll 0 0;
+    content: "";
+    height: 100px;
+    position: absolute;
+    width: 1px;
+    top: 0;
+    left: 0;
+}
+.absulate-bg-left .boxed-content{
+    margin-left: 70px;
+    padding-right: 0;
+}
+.bordered-btn {
+    border: 1px solid #fff;
+    color: #fff;
+    display: inline-block;
+    padding: 7px 25px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.section-absulate-bg {
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+}
+
+.absulate-bg-left .section-absulate-bg {
+    left: 0;
+    right: auto;
+}
+.section-absulate-bg::after {
+    background: #333 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    opacity: 0.6;
+    position: absolute;
+    width: 100%;
+    z-index: ;
+}
+.section-absulate-bg::before {
+    border-bottom: 20px solid transparent;
+    border-left: 50px solid #222931;
+    border-top: 20px solid transparent;
+    content: "";
+    height: 0;
+    left: 0;
+    position: absolute;
+    top: 50%;
+    width: 0;
+}
+.absulate-bg-left .section-absulate-bg::before {
+    border-bottom: 20px solid transparent;
+    border-left: 50px solid #222931;
+    border-top: 20px solid transparent;
+    content: "";
+    height: 0;
+    left: 625px;
+    position: absolute;
+    right: auto;
+    top: 50%;
+    transform: rotate(180deg);
+    width: 0;
+}
