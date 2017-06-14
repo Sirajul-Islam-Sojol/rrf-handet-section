@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Khula:300,400,600,700,800');
+.hero-area{
+     background-image: url(../img/hero-bg-2.png);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    line-height: 1.8;
+     padding: 80px 0;
+}
+.hero-area h1{
+    color: #fff;
+    font-size: 50px;
+    margin-top: 90px;
+    font-weight: 400;
+}
+.boxed-btn{
+    background: #06d6a0;
+}
+
+
+
+
+h3 {
+  font-size: 22px;
+}
+.about-text {
+  font-size: 13px;
+    line-height: 26px;
+    font-weight: 300;
+    
+    font-family: 'Khula', sans-serif;
+
+}
+.about-text h3 {
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+.about-text .boxed-btn {
+  margin-top: 25px;
+    padding: 10px 30px;
+}
+
+.padding-top-0{
+    padding-top: 0;
+}
+.section-title {
+  line-height: 1.9;
+  font-size: 15px;
+}
+.section-title h2 {
+  font-size: 28px;
+}
+
+.single-service-box-2 {
+  background: #fbfbfb;
+  display: table;
+  width: 100%;
+  height: 250px;
+    transition: .5s;
+
+}
+.service-box-tablecell {
+  display: table-cell;
+  vertical-align: middle;
+}
+.service-box-tablecell h3 {
+  font-size: 22px;
+    transition: .5s;
+}
+.service-box-tablecell .service-icon i {
+  font-size: 40px;
+  margin-bottom: 30px;
+  color: #21a5f9;
+    transition: .5s;
+
+}
+.single-service-box-2:hover{
+background: #04befe;
+background: -moz-linear-gradient(top, #04befe 0%, #4482ec 100%);
+background: -webkit-linear-gradient(top, #04befe 0%,#4482ec 100%);
+background: linear-gradient(to bottom, #04befe 0%,#4482ec 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#04befe', endColorstr='#4482ec',GradientType=0 );
+
+
+}
+.single-service-box-2:hover i.fa, h3{
+    color: #fff;
+}
