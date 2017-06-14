@@ -1,0 +1,91 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+.section-padding{
+    padding: 50px 0;
+}
+
+.section-title::before {
+    background: #000 none repeat scroll 0 0;
+    content: "";
+    height: 2px;
+    left: 75px;
+    position: absolute;
+    top: -45px;
+    width: 42%;
+}
+.section-title {
+    font-size: 45px;
+    font-weight: bolder;
+    left: -50px;
+    margin-top: -10px;
+    position: relative;
+    top: 40px;
+    transform: rotate(270deg);
+    width: 300px;
+}
+.team-bg{
+    -webkit-background-size: cover;
+    background-position: center;
+    background-size: cover;
+    background-position: 0 0;
+    min-height: 240px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.team-bg-1{background-image: url(../img/team-bg-1.jpg);}
+.team-bg-2{background-image: url(../img/team-bg-2.jpg);}
+.team-bg-3{background-image: url(../img/team-bg-3.jpg);}
+
+.bordered-content {
+    border: 1px solid #333;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 300;
+    padding-bottom: 15px;
+}
+
+.team-title {
+    margin-top: -15px;
+}
+.team-title h3 {
+    background: #fff none repeat scroll 0 0;
+    display: inline-block;
+    font-size: 20px;
+    margin-bottom: 5px;
+    padding: 0 8px;
+}
+
+.col-md-4:nth-child(2) {
+    margin-top: 100px;
+}

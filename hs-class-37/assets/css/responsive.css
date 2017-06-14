@@ -1,0 +1,32 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ 
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+    .section-title{
+       margin: 0;
+       padding: 0;
+        transform: rotate(0deg);
+        text-align: center;
+        margin-bottom: 200px;
+         padding-left: 50px;
+    }
+    
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+.section-title{
+        transform: rotate(0deg);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+        margin-bottom: 200px; padding-left: 50px;
+    }
+}
