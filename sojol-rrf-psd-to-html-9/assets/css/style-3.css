@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Khula:300,400,600,700,800');
+
+.hero-abslute{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+}
+.header-area.hero-abslute .mainmenu ul li a{
+    color: #fff;
+}
+.single-slide-item{
+    background-position: center;
+    background-size: cover;
+    background-color: #ddd;
+}
+.slide-bg-1{
+    background-image: url(../img/slide-bg-1.jpg)
+} 
+.slide-bg-2{
+    background-image: url(../img/slide-bg-2.jpg)
+} 
+.single-slide-item:after{
+   background: #1d62f0;
+    background: -webkit-linear-gradient(bottom left, #1d62f0 0%, #1ad8fd 100%);
+    background: -o-linear-gradient(bottom left, #1d62f0 0%, #1ad8fd 100%);
+    background: linear-gradient(to top right, #1d62f0 0%, #1ad8fd 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d62f0', endColorstr='#1ad8fd',GradientType=1 );
+    position: absolute;
+      width: 100%;
+      height: 100%;
+      content: "";
+      left: 0;
+      top: 0;
+    opacity: .9;
+    
+}
+.single-slide-item {
+  display: table;
+  width: 100%;
+  height: 100%;
+    position: relative;
+}
+html, body {
+  height: 100%;
+}
+.slide-itme-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+.slide-itme-wrapper h2 {
+    color: #fff;
+    font-size: 65px;
+    line-height: 75px;
+}
+.slide-itme-wrapper {
+    line-height: 1.8;
+}
+
+.video-play-btn {
+  width: 60px;
+  height: 60px;
+  background: #06d6a0;
+  display: inline-block;
+  line-height: 64px;
+  border-radius: 50%;
+  color: #fff;
+  margin-top: 30px;
+  padding-left: 4px;
+}
+.homepage-3-slides, .homepage-3-slides div{
+    height: 100%;
+    
+}
+.homepage-3-slides div.owl-controls, .homepage-3-slides div .owl-controls div,
+.homepage-3-slides div.slide-itme-wrapper, .homepage-3-slides div .slide-itme-wrapper div{
+    height: auto;
+}
+.homepage-3-slides .owl-nav div {
+  top: 50%;
+  font-size: 35px;
+  color: #fff;
+  position: absolute;
+  margin-top: -15px;
+  left: 25px;
+  right: auto;
+    opacity: .5;
+    transition: .3s;
+    line-height: 30px;
+        
+}
+
+.homepage-3-slides .owl-nav div.owl-next{
+    left: auto;
+    right: 25px;
+}
+
+.homepage-3-slides .owl-nav div:hover {
+    opacity: 1;
+}
