@@ -1,0 +1,238 @@
+<!-- project:SHOPGRID-->
+<!--AHHOR:Md:sirajul islam (sojol)-->
+<!--dat:16-07-2017-->
+/* Base CSS */
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+body {
+    background-color: #d7d7d7;
+    font-size: 20px;
+    color: #000;
+}
+
+a:hover {
+    text-decoration: none
+}
+
+.header-area {
+    background-image: url(../img/header-bg.png);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.logo-wrapp>img {
+  padding: 25px 0;
+}
+/*SLIDER-AREA-CSS*/
+.slide-content-wrapper {
+  color: #fff;
+  padding: 150px 0;
+
+}
+.single-slide-item {
+    background-position: center;
+    background-size: cover;
+}
+.slide-bg-1 {
+    background-image: url(../img/slide-bg-1.png);
+}.slide-bg-2 {
+    background-image: url(../img/slide-bg-2.jpg);
+}
+.slide-content-wrapper h1 {
+  font-size: 60px;
+}
+.slide-content-wrapper h2 {
+  font-size: 40px;
+  margin-top: 25px;
+}
+a.learn-more-btn {
+  display: inline-block;
+  color: #000;
+  background: #fff;
+  padding: 10px 40px;
+  margin-top: 40px;
+}
+
+
+/*BLOG-AREA-CSS*/
+.description-content {
+  border-bottom: 10px solid #333;
+}
+.description-content h2 {
+  font-size: 35px;
+  margin: 25px 0px;
+}
+.description-content h3 {
+  font-size: 29px;
+  margin-right: 80px;
+}
+.whight-bg{
+    background-color: #fff;
+}
+
+.gray-box {
+  background: #e1e1e1;
+  padding: 18px;
+  font-size: 22px;
+  margin-left: -30px;
+    line-height: 1.6;
+    height: auto;
+}
+.gray-box h3 {
+  margin: 11px auto;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+.description-content .col-md-8 >h3 {
+  margin-bottom: 27px;
+}
+.single-blog-item>h3.clr-red {
+  color: #cc0033;
+  font-size: 35px;
+  margin-top: 30px;
+}
+.single-blog-item h3 {
+  margin-top: 30px;
+}
+
+
+
+/*logo-carousel*/
+
+.single-logo-item {
+    height: auto;
+    float: right;
+}
+
+
+}
+.logo-inner {
+    vertical-align: middle;
+}
+.brand-logo-area {
+    background-color: #cc0033;
+}
+.logo-inner {
+  padding: 35px 15px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+
+/*FORM-AREA-CSS*/
+.form-area-bg {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.form-wrapper {
+/*  padding: 20px ;*/
+    font-size: 17px;
+}
+
+
+.first-name {
+  float: left;
+  width: 48%;
+}
+.last-name {
+  float: right;
+  width: 48%;
+}
+.form-wrapper input[type="text"], input[type="email"] {
+  background: #ebebeb;
+  padding: 6px;
+  border: 1px solid;
+  width: 100%;
+  margin-top: 8px;
+  margin-bottom: 6px;
+  font-size: 20px;
+
+}
+
+.text-wrap {
+  margin-top: 8px;
+}
+.text-wrap textarea {
+  background: #ebebeb;
+  border: 1px solid;
+  
+}
+.submit-box-btn input[type="submit"] {
+  display: inline-block;
+  
+  margin-top: 35px;
+  padding: 7px 40px;
+    background: #464646;
+    border: none;
+    color: #fff;
+    margin-bottom: 20px;
+}
+/*FOOTER-AREA-CSS*/
+.footer-area {
+  background: #000;
+  color: #fff;
+  font-size: 15px;
+}
+.social-link {
+  padding: 25px;
+}
+.social-link a>i.fa {
+  display: inline-block;
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #fff;
+  color: #111;
+  line-height: 48px;
+  font-size: 24px;
+  margin: 7px;
+}
+
+.pl-10{
+    padding-left: 12px;
+}
+.form-content-wrap {
+  margin-top: 10px;
+  
+}
+
+.mb-20{
+    margin-bottom: 20px;
+}
+.black-bg{
+    background-color:#000;
+}
