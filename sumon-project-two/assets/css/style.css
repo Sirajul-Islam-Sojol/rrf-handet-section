@@ -128,7 +128,9 @@ a.learn-more-btn {
   margin-top: 30px;
 }
 
-
+.productivity-improv{
+    text-align: right;
+}
 
 /*logo-carousel*/
 
@@ -188,17 +190,21 @@ a.learn-more-btn {
 .text-wrap textarea {
   background: #ebebeb;
   border: 1px solid;
-  
+   resize: none;
 }
 .submit-box-btn input[type="submit"] {
   display: inline-block;
   
-  margin-top: 35px;
+  margin-top: 20px;
   padding: 7px 40px;
     background: #464646;
     border: none;
     color: #fff;
     margin-bottom: 20px;
+    
+}
+.submit-box-btn{
+    text-align: right;
 }
 /*FOOTER-AREA-CSS*/
 .footer-area {
@@ -221,18 +227,12 @@ a.learn-more-btn {
   font-size: 24px;
   margin: 7px;
 }
-
-.pl-10{
-    padding-left: 12px;
-}
 .form-content-wrap {
   margin-top: 10px;
   
 }
 
-.mb-20{
-    margin-bottom: 20px;
-}
+
 .black-bg{
     background-color:#000;
 }

@@ -22,31 +22,30 @@
             margin: 10,
             responsiveClass: true,
             responsive: {
-                320: {
+                0: {
                     items: 1,
-                    loop: true,
-                    autoplay: true
+                    nav: false,
+                    loop:true,
+                    autoplay:true
                 },
-                480: {
+                600: {
                     items: 2,
-                    loop: true,
-                    autoplay: true
+                    nav: false,
+                    loop:true,
+                    autoplay:true
                 },
-                767: {
-                    items: 3,
-                    loop: true,
-                    autoplay: true
-                },
-                1170: {
+                1000: {
                     items: 5,
-                    loop: true,
-                    autoplay: true,
-                }
+                    nav: false,
+                    loop:true,
+                    autoplay:true
+                },
+                
             }
         })
 
 
-   });
+    });
 
     jQuery(window).load(function () {
 
