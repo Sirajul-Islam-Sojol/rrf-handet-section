@@ -1,0 +1,126 @@
+.homepage-hero-area-4{
+    background-image: url(../img/Homepage_version_04_bg.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+    
+   
+    
+}
+html, body, .homepage-hero-area-4, .single-slide-item {
+  height: 100%;
+}
+.single-slide-item {
+  display: table;
+  width: 100%;
+}
+.slide-itme-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  color: #fff;
+  font-size: 15px;
+    line-height: 1.6;
+    font-weight: 300;
+}
+
+.slide-itme-wrapper h2 {
+  color: #fff;
+  font-size: 44px;
+  font-weight: ;
+  line-height: 1.6;
+  font-weight: 700;
+}
+
+.home-4.website-check-form {
+  margin-top: 40px;
+}
+.home-4.website-check-form input {
+  background: #073b4c;
+  border-color: #073b4c;
+  border-radius: 4px
+}
+.home-4.website-check-form input[type="submit"], button[type="submit"] {
+    width: 14%;
+    background: #06d6a0;
+}
+.home-4.website-check-form input[type="email"], input[type="url"], input[type="text"] {
+    width: 25%;
+    margin-right: 30px;
+}
+.homepage-hero-area-4:after {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background: #073b4c;
+  left: 0;
+  top: 0;
+  opacity: .25;
+  z-index: -1;
+}
+.header-area.hero-abslute {
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 22;
+}
+
+.menu-trigger, .search-trigger {
+  color: #fff;
+  font-size: 22px;
+  padding: 0;
+}
+.off-canvas-manu {
+    background: #073b4c none repeat scroll 0 0;
+    color: #fff;
+    height: 100%;
+    left: -300px;
+    padding: 40px;
+    position: fixed;
+    top: 0;
+    width: 300px;
+    z-index: 99;visibility: hidden;opacity: 0;
+    transition: .3s;
+}
+.off-canvas-menu .show-off-canvas-menu{
+    opacity: 1;
+    visibility: visible;
+    left: 0;
+}
+.menu-close {
+    cursor: pointer;
+    font-size: 18px;
+    padding: 20px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: inline-block;
+}
+.off-canvas-manu a{
+    color:#fff;
+}
+
+.menu-logo img {
+  display: inline-block;
+  top: 0;
+}
+.off-canvas-manu ul {
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
+}
+.off-canvas-manu ul li {
+  padding: 8px 0;
+}
+ul {
+}
+.off-canvas-manu ul li {
+  display: block;
+}
+.off-canvas-manu ul li a:hover{
+    opacity: .5;
+    border-bottom: #666;
+}
