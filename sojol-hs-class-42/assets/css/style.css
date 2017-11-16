@@ -1,0 +1,146 @@
+/* Base CSS */
+
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+body {}
+
+a:hover {
+    text-decoration: none
+}
+
+.section-padding {
+    padding: 80px 0;
+}
+
+.section-title {
+    margin-bottom: 90px;
+    text-transform: uppercase;
+}
+
+.product-image-wrapp {
+    background: #f1f1f1;
+    padding: 20px;
+    display: table;
+    width: 100%;
+    height: 320px;
+    position: relative;
+}
+
+.product-imamge-wrapp-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.single-product-box h4 {
+    font-size: 20px;
+    font-family: roboto;
+    color: #7b7b7b;
+    margin-top: 30px;
+}
+
+.product-price {
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    color: #ff5252;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.single-product-box {
+    position: relative;
+    text-align: center;
+    z-index: 1;
+    margin-top: 50px;
+}
+
+.single-product-box:after {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: url(../img/map.png) no-repeat scroll center top #3b3b3b;
+    background-size: cover;
+    content: "";
+    left: 0;
+    top: 0;
+    opacity: 0;
+    visibility: hidden;
+    z-index: -1;
+    transition: .3s;
+}
+
+.product-hover-link {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+    text-align: left;
+    padding: 0 20px;
+    transition: 03s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.product-hover-link a {
+    display: inline-block;
+    height: 50px;
+    width: 30px;
+    text-align: center;
+    color: #676767;
+    font-size: 16px;
+    line-height: 43px;
+}
+
+.product-hover-link a.border-right {
+    border: 2px solid #ff5151;
+    width: 50px;
+}
+
+.single-product-box:hover:after {
+    top: -20px;
+    height: 120%;
+    
+    visibility: visible;
+    opacity: 1;
+}
+.single-product-box:hover .product-image-wrapp {
+    background: none;
+}
+.single-product-box:hover .product-hover-link{
+    opacity: 1;
+    visibility: visible;
+    top: -5px;
+}
